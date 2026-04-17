@@ -34,7 +34,7 @@ body{font-family:var(--font-sans);color:var(--ink);background:var(--paper);line-
 .header-inner{display:flex;align-items:center;max-width:var(--max-w);margin:0 auto;padding:.85rem 2rem;gap:1.5rem;}
 .brand{display:flex;align-items:center;gap:.75rem;text-decoration:none;color:var(--ink);flex-shrink:0;}
 .logo-clip{display:block;width:100px;height:100px;overflow:hidden;border-radius:4px;flex-shrink:0;}
-.logo-clip img{display:block;width:125px;height:125px;margin:-12px;}
+.logo-clip img{display:block;width:112px;height:112px;margin:-6px;}
 .brand-name{font-family:var(--font-serif);font-weight:600;font-size:1.1rem;}
 .site-nav{display:flex;align-items:center;gap:1.8rem;margin:0 auto;}
 .site-nav a{font-size:.82rem;font-weight:500;color:var(--ink-mid);text-decoration:none;letter-spacing:.02em;transition:color .2s;}
