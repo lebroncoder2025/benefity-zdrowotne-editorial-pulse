@@ -3,174 +3,212 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Benefity Zdrowotne dla Firm | Editorial Pulse</title>
-  <meta name="description" content="Editorial Pulse pokazuje markę bardziej opiniotwórczo i storytellingowo, z mocną typografią i nowoczesną narracją B2B.">
+  <title>Benefity Zdrowotne dla Firm — Opieka zdrowotna, która działa</title>
+  <meta name="description" content="Pakiety medyczne dla firm od 5 pracowników. Autorski proces doboru, szybkie wdrożenie, osobisty concierge. 200+ obsłużonych firm.">
+  <link rel="icon" href="assets/Projekt-bez-nazwy.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="theme-editorial page-home">
-  <div class="paper-noise"></div>
+<body>
+
   <header class="site-header">
-    <a class="brand" href="index.html">
-      <img src="assets/Projekt-bez-nazwy.png" alt="Benefity Zdrowotne dla Firm">
-      <div>
-        <strong>Editorial Pulse</strong>
-        <span>benefity zdrowotne dla firm</span>
-      </div>
-    </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
-    <nav class="site-nav" id="site-nav" aria-label="Główna nawigacja">
-      <a class="active" href="index.html">Start</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="tam-gdzie-dzieje-sie-hr.html">Tam, gdzie dzieje się HR</a>
-      <a class="cta-link" href="#kontakt">Kontakt</a>
-    </nav>
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="assets/Projekt-bez-nazwy.png" alt="Benefity Zdrowotne" width="40" height="40">
+        <span class="brand-name">Benefity Zdrowotne</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav">
+        <a href="index.html" class="active">Strona główna</a>
+        <a href="o-nas.html">O nas</a>
+        <a href="tam-gdzie-dzieje-sie-hr.html">Wydarzenia</a>
+        <a class="nav-cta" href="#kontakt">Porozmawiajmy</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="hero hero-editorial frame">
-      <div class="hero-main">
-        <p class="kicker">Nowa prezentacja marki</p>
-        <h1>Zdrowie w firmie nie musi wygladac jak kolejny benefit z katalogu.</h1>
-        <p class="lead">Tutaj komunikacja zaczyna sie od realnych kosztow absencji, rotacji i przestojow, a konczy na uporzadkowanym wdrozeniu pakietu medycznego. Ten wariant nadaje marce glos bardziej opiniotworczy i wyrazisty.</p>
+    <!-- HERO — editorial full-bleed -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="assets/patrycja-1-768x1152.jpg" alt="" aria-hidden="true">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <span class="kicker">Pakiety medyczne dla firm</span>
+        <h1>Chory pracownik kosztuje.<br><em>Zdrowy zarabia</em> dla Ciebie.</h1>
+        <p>Dobieramy opiekę medyczną do branży, budżetu i struktury Twojej firmy. Bez zbędnej papierologii. Od pierwszego dnia.</p>
         <div class="hero-actions">
-          <a class="button" href="mailto:benefityzdrowotne@gmail.com">Porozmawiajmy o pakiecie</a>
-          <a class="button button-light" href="tel:+48665359534">Telefon</a>
+          <a class="btn btn-light" href="mailto:benefityzdrowotne@gmail.com">Zapytaj o ofertę</a>
+          <a class="btn btn-ghost" href="tel:+48665359534">665 359 534</a>
         </div>
       </div>
-      <aside class="hero-sidebar">
-        <p class="sidebar-label">Editorial note</p>
-        <p>W tej koncepcji marka nie sprzedaje tylko pakietu. Buduje punkt widzenia: zdrowy zespol to przewaga operacyjna, a nie „mile miec”.</p>
-        <dl>
-          <div><dt>200+</dt><dd>firm w obsludze</dd></div>
-          <div><dt>98%</dt><dd>odnowien</dd></div>
-          <div><dt>100%</dt><dd>wdrozen na czas</dd></div>
-        </dl>
-      </aside>
-      <div class="hero-art hero-art-left">
-        <img src="assets/123-1024x686.jpeg" alt="Rozmowa biznesowa">
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="ticker reveal">
+      <div class="ticker-track">
+        <span>200+ obsłużonych firm</span>
+        <span>98% odnowień</span>
+        <span>Wdrożenie w dniach, nie tygodniach</span>
+        <span>Firmy od 5 do 150 osób</span>
+        <span>200+ obsłużonych firm</span>
+        <span>98% odnowień</span>
+        <span>Wdrożenie w dniach, nie tygodniach</span>
+        <span>Firmy od 5 do 150 osób</span>
       </div>
-      <div class="hero-art hero-art-right">
-        <img src="assets/0Z7A8137-683x1024.jpg" alt="Ekspertka Benefity Zdrowotne dla Firm">
+    </div>
+
+    <!-- INTRO TEXT -->
+    <section class="editorial-block reveal">
+      <div class="editorial-inner">
+        <p class="dropcap">Większość firm kupuje pakiety medyczne tak, jak kupuje artykuły biurowe — od pierwszego dostawcy, który wyśle ofertę. Problem polega na tym, że źle dobrany pakiet nie przynosi efektu: pracownicy z niego nie korzystają, a firma płaci za fikcję.</p>
+        <p>Nasz model działa inaczej. Najpierw rozmawiamy. Potem analizujemy. Dopiero wtedy rekomendujemy. I nie znikamy po podpisaniu umowy — zostajemy jako stały punkt kontaktu między firmą a ubezpieczycielem.</p>
       </div>
     </section>
 
-    <section class="editorial-strip">
-      <p>Pakiety medyczne dla firm od 5 pracownikow. Bez papierologii. Z opieka, ktora zaczyna sie od potrzeb firmy, a nie od tabeli produktowej.</p>
+    <!-- FEATURES — 2-column editorial -->
+    <section class="section reveal">
+      <div class="section-label">Podejście</div>
+      <div class="feature-grid">
+        <article class="feature">
+          <span class="feature-num">01</span>
+          <h3>Dopasowanie, nie sprzedaż</h3>
+          <p>Pakiet dobieramy do realnych potrzeb zespołu — nie z gotowego cennika. Rekomendacja opiera się na branży, strukturze zatrudnienia i budżecie.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-num">02</span>
+          <h3>Minimum formalności</h3>
+          <p>Ścieżka online eliminuje drukowanie, skanowanie i wysyłanie dokumentów. Pracownik otrzymuje dostęp do lekarzy szybciej niż dotąd.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-num">03</span>
+          <h3>Concierge, nie infolinia</h3>
+          <p>Po wdrożeniu firma nie trafia na infolinię, ale na konkretną osobę, która zna jej sytuację i reaguje na bieżąco.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-num">04</span>
+          <h3>Doświadczenie z rynku</h3>
+          <p>Ponad 200 obsłużonych firm — od kilkuosobowych zespołów po organizacje ze 150 pracownikami. Wiemy, co działa.</p>
+        </article>
+      </div>
     </section>
 
-    <section class="content-block two-column">
-      <div class="section-intro">
-        <p class="kicker">Dlaczego my</p>
-        <h2>Autorski proces doboru pakietu brzmi mocniej, kiedy pokazesz go jak metode.</h2>
+    <!-- PULL QUOTE -->
+    <section class="pullquote reveal">
+      <blockquote>
+        <p>84% pracowników deklaruje, że pakiet medyczny ma realny wpływ na atrakcyjność pracodawcy.</p>
+        <cite>— Raport Sedlak &amp; Sedlak</cite>
+      </blockquote>
+    </section>
+
+    <!-- KORZYŚCI -->
+    <section class="section reveal">
+      <div class="section-label">Korzyści</div>
+      <div class="split">
+        <div class="split-text">
+          <h2>Dlaczego firmy zostają<br>na kolejny rok?</h2>
+          <article>
+            <h3>Mniej L4, więcej ciągłości</h3>
+            <p>Pracownicy szybciej wracają do zdrowia. Zespół nie traci tempa, projekty idą do przodu.</p>
+          </article>
+          <article>
+            <h3>Silniejsza retencja</h3>
+            <p>Dobre benefity obniżają rotację. To mocny argument, gdy konkurujesz o ludzi z większymi firmami.</p>
+          </article>
+          <article>
+            <h3>Przewidywalny budżet</h3>
+            <p>Wiedziesz z góry, ile kosztuje pakiet i co dokładnie zawiera. Bez niespodzianek przy odnowieniu.</p>
+          </article>
+        </div>
+        <div class="split-img">
+          <img src="assets/zlotowki-1024x683.png" alt="Korzyści finansowe" loading="lazy">
+        </div>
       </div>
-      <div class="story-list">
-        <article>
-          <span>01</span>
+    </section>
+
+    <!-- PROCES -->
+    <section class="section section--dark reveal">
+      <div class="section-label section-label--light">Proces</div>
+      <h2 class="text-center light">Od rozmowy do aktywnego pakietu w trzech krokach.</h2>
+      <div class="timeline">
+        <article class="timeline-step">
+          <div class="timeline-marker"></div>
+          <h3>Rozmowa</h3>
+          <p>Poznajemy firmę, jej potrzeby, budżet i oczekiwania wobec opieki medycznej.</p>
+        </article>
+        <article class="timeline-step">
+          <div class="timeline-marker"></div>
+          <h3>Oferta</h3>
+          <p>Przygotowujemy rozwiązanie skrojone pod Twój zespół — w ciągu 24 godzin.</p>
+        </article>
+        <article class="timeline-step">
+          <div class="timeline-marker"></div>
+          <h3>Wdrożenie</h3>
+          <p>Pracownicy korzystają z lekarzy, badań i rehabilitacji od pierwszego dnia.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROMO -->
+    <section class="section promo reveal">
+      <div class="promo-frame">
+        <span class="kicker">Oferta specjalna</span>
+        <h2>Spotkałeś nas na konferencji<br>Wyzwania&nbsp;HR?</h2>
+        <p>Skorzystaj z 10% rabatu na pierwszy pakiet medyczny. Wystarczy wspomnieć o wydarzeniu podczas rozmowy.</p>
+        <a class="btn btn-dark" href="mailto:benefityzdrowotne@gmail.com?subject=Wyzwania HR — oferta specjalna">Skorzystaj z oferty</a>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section" id="kontakt">
+      <div class="section-label">Kontakt</div>
+      <h2>Zrób pierwszy krok.</h2>
+      <div class="contact-duo reveal">
+        <article class="contact-card">
+          <img src="assets/patrycja-1-768x1152.jpg" alt="Patrycja Rożek" loading="lazy">
           <div>
-            <h3>Nie zgadujemy, tylko porownujemy realne potrzeby firm.</h3>
-            <p>Komunikacja bierze pod uwage branze, budzet i styl pracy organizacji, wiec jest wiarygodna dla wlasciciela i dla HR.</p>
+            <h3>Patrycja Rożek</h3>
+            <p class="role">Wsparcie merytoryczne &amp; wdrożenie</p>
+            <div class="contact-links">
+              <a href="tel:+48665359534">+48 665 359 534</a>
+              <a href="https://wa.me/48665359534">WhatsApp</a>
+              <a href="https://m.me/100070211612275">Messenger</a>
+            </div>
           </div>
         </article>
-        <article>
-          <span>02</span>
+        <article class="contact-card">
+          <img src="assets/patrycj-2-683x1024.jpg" alt="Joanna Ligierska-Sadło" loading="lazy">
           <div>
-            <h3>Proces jest prosty dla klienta, ale nie banalny w tresci.</h3>
-            <p>Ta forma podkresla eksperckosc i upraszcza przekaz bez upraszczania samej uslugi.</p>
+            <h3>Joanna Ligierska-Sadło</h3>
+            <p class="role">Sprzedaż &amp; doradztwo biznesowe</p>
+            <div class="contact-links">
+              <a href="tel:+48791032017">+48 791 032 017</a>
+              <a href="https://wa.me/48791032017">WhatsApp</a>
+              <a href="https://m.me/100078551106456">Messenger</a>
+            </div>
           </div>
         </article>
-        <article>
-          <span>03</span>
-          <div>
-            <h3>Wsparcie po wdrozeniu jest elementem glownej obietnicy.</h3>
-            <p>Osobisty concierge i kontakt bez wiszenia na infolinii zostaja pokazane jako przewaga serwisowa.</p>
-          </div>
-        </article>
       </div>
-    </section>
-
-    <section class="content-block frame accent-frame">
-      <div class="section-intro compact">
-        <p class="kicker">Korzyści biznesowe</p>
-        <h2>Ta wersja najlepiej pracuje tam, gdzie trzeba wyjasnic, ze zdrowie zespolu ma liczby.</h2>
-      </div>
-      <div class="benefit-editorial">
-        <article>
-          <h3>Mniej przestojow</h3>
-          <p>Szybszy dostep do lekarzy, badan i rehabilitacji porzadkuje codziennosc zespolu i zmniejsza operacyjne tarcia.</p>
-        </article>
-        <article>
-          <h3>Mocniejszy employer branding</h3>
-          <p>Pakiet medyczny pokazany jako standard opieki buduje atrakcyjnosc pracodawcy i zmniejsza ryzyko odejsc.</p>
-        </article>
-        <article>
-          <h3>Jasny koszt, konkretna wartosc</h3>
-          <p>Wlasciciel firmy widzi, za co placi i jak usluga wspiera ciaglosc pracy, a nie tylko samopoczucie zespolu.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="content-block process-block">
-      <div class="section-intro compact">
-        <p class="kicker">Jak to dziala</p>
-        <h2>Trzy kroki zapisane jak redakcyjna sekwencja, nie jak instrukcja.</h2>
-      </div>
-      <ol class="process-list">
-        <li>
-          <strong>Rozmawiamy o firmie i potrzebach</strong>
-          <span>Na starcie licza się realia firmy, a nie gotowy cennik do odhaczenia.</span>
-        </li>
-        <li>
-          <strong>Przekazujemy dopasowana oferte</strong>
-          <span>Oferta jest zredagowana tak, aby decyzja byla szybka i oparta na priorytetach biznesu.</span>
-        </li>
-        <li>
-          <strong>Wdrozenie dzieje sie bez tarcia</strong>
-          <span>Pracownicy zyskuja dostep do lekarzy i badan, a firma nie traci czasu na organizacyjny chaos.</span>
-        </li>
-      </ol>
-    </section>
-
-    <section class="content-block promo-banner frame">
-      <div>
-        <p class="kicker">Konferencje i aktywacje</p>
-        <h2>Oferta specjalna dla uczestnikow konferencji Wyzwania HR moze stac sie eleganckim modułem kampanii.</h2>
-      </div>
-      <p>Zamiast klasycznego licznika ta wersja eksponuje wydarzenie jako kontekst i kanal pozyskania leadow. To subtelniejsze, ale bardziej dojrzale w odbiorze B2B.</p>
-    </section>
-
-    <section class="content-block contacts-block" id="kontakt">
-      <div class="section-intro compact">
-        <p class="kicker">Kontakt</p>
-        <h2>Zespol, do ktorego chce sie napisac od razu po przeczytaniu strony.</h2>
-      </div>
-      <div class="contact-columns">
-        <article>
-          <p class="person-label">Patrycja Rożek</p>
-          <a href="tel:+48665359534">+48 665 359 534</a>
-          <a href="https://wa.me/48665359534">WhatsApp</a>
-          <a href="https://m.me/100070211612275">Messenger</a>
-        </article>
-        <article>
-          <p class="person-label">Joanna Ligierska-Sadlo</p>
-          <a href="tel:+48791032017">+48 791 032 017</a>
-          <a href="https://wa.me/48791032017">WhatsApp</a>
-          <a href="https://m.me/100078551106456">Messenger</a>
-        </article>
-        <article>
-          <p class="person-label">E-mail</p>
-          <a href="mailto:benefityzdrowotne@gmail.com">benefityzdrowotne@gmail.com</a>
-          <p>Kontakt do pierwszej rozmowy i przeslania zalozen firmy.</p>
-        </article>
+      <div class="email-bar reveal">
+        <p>benefityzdrowotne@gmail.com</p>
+        <a class="btn btn-dark" href="mailto:benefityzdrowotne@gmail.com">Napisz do nas</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Editorial Pulse concept dla Benefity Zdrowotne dla Firm.</p>
-    <p><a href="docs/DOKUMENTACJA.md">Dokumentacja</a> <span>/</span> <a href="docs/KALKULACJA-WSTEPNA.md">Kalkulacja wstepna</a></p>
+    <div class="footer-inner">
+      <p>&copy; 2025 Benefity Zdrowotne dla Firm</p>
+      <nav>
+        <a href="o-nas.html">O nas</a>
+        <a href="tam-gdzie-dzieje-sie-hr.html">Wydarzenia</a>
+      </nav>
+    </div>
   </footer>
 
   <script src="script.js"></script>
